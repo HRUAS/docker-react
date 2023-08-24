@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          This is the replaced text
+          This is the replaced text, live edit
         </a>
       </header>
     </div>
