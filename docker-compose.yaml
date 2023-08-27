@@ -29,6 +29,6 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./jenkins_plugins.txt:/home/$USER
     command:
-      - curl -o jenkins-cli.jar  http://localhost:8080/jnlpJars/jenkins-cli.jar
+      - /bin/curl -o jenkins-cli.jar  http://localhost:8080/jnlpJars/jenkins-cli.jar
 
 
