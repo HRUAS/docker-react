@@ -5,3 +5,6 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 sudo systemctl start docker
 sudo yum install docker-compose-plugin
+
+################### creating folder for jenkins
+mkdir -p /home/$USER/jenkins_compose/jenkins_configuration
