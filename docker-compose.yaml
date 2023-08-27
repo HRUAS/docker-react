@@ -18,9 +18,7 @@ services:
       - .:/app
     command: ["npm","run","test"]
   jenkins:
-    build:
-      context: .
-      dockerfile: Dockerfile.jenkins
+    image: jenkins/jenkins:lts
     privileged: true
     user: root
     ports:
