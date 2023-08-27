@@ -7,4 +7,7 @@ sudo systemctl start docker
 sudo yum install docker-compose-plugin
 
 ################### creating folder for jenkins
-mkdir -p /home/$USER/jenkins_compose/jenkins_configuration
+mkdir -p /home/$USER/jenkins_compose/
+
+################### Running docker compose to create all the required containers
+sudo docker compose up -d build 
