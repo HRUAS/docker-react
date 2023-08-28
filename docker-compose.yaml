@@ -25,8 +25,8 @@ services:
       - 8082:8080
     container_name: jenkins
     volumes:
-      - /home/$USER/jenkins_compose/jenkins_configuration:/var/jenkins_home
+      - /home/bob/jenkins_compose/jenkins_configuration:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
-      - /home/$USER/docker-react/jenkins_plugins.txt:/var/jenkins_home/jenkins_plugins.txt
+      - /home/bob/docker-react/jenkins_plugins.txt:/var/jenkins_home/jenkins_plugins.txt
 
 
